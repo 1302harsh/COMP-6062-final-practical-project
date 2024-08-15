@@ -1,0 +1,59 @@
+.heading1 {
+
+    color: rgb(55, 55, 193);
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 5%;
+}
+
+div.col-md-12{
+
+    background-color: rgb(114, 226, 16);
+    color: white;
+    min-height: 100px;
+    text-align: center;
+    border-style:groove;
+    border-color: #000;
+    margin-bottom: 2% ;
+}
+
+div.col-md-6{
+
+    background-color: rgb(92, 144, 235);
+    color: white;
+    min-height: 100px;
+    text-align: center;
+    border-style:groove;
+    border-color: #000;
+}
+
+.useless-facts{
+    color:black
+}
+.weather-info{
+    color: black;
+}
+
+.dictionary{
+    color: black;
+}
+
+@media only screen and (min-width: 768px){
+    body{
+        background-image: url('https://images.pexels.com/photos/1261728/pexels-photo-1261728.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+        background-size: cover; 
+    }
+}
+
+@media only screen and (max-width: 768px){
+    body{
+        background-color: rgb(64, 185, 82);
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+}
+
+footer{
+    font-style: oblique;
+    font-weight: bold;
+}
